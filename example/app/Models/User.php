@@ -10,6 +10,8 @@ use Illuminate\Notifications\Notifiable;
 
 /**
  * @property string $name
+ *
+ * @method User translate(?string $locale = null, bool $withFallback = false)
  */
 class User extends Authenticatable
 {
